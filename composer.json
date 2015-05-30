@@ -1,0 +1,24 @@
+{
+    "name": "shuchow/wordpress-xmlrpc-shell",
+    "description": "This file mimics the WordPress XML-RPC file allowing you to do whatever you wish to the call.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Shu Chow",
+            "email": "schow@alumni.rutgers.edu"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+      "php": ">=5.4.0",
+      "shuchow/wordpress-xmlrpc-parser" : ">=0.0.1"
+    },
+
+    "repositories" : [
+      {
+        "type" : "vcs",
+        "url" : "http://github.com/shuchow/wordpress-xmlrpc-parser"
+      }
+    ]
+
+}
